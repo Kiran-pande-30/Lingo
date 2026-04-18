@@ -6,9 +6,9 @@ export const lessons = [
     context: "तुम अभी-अभी Pune के एक नए office में join हुए हो। तुम्हारे colleagues Marathi बोलते हैं। पहले दिन के लिए ये 5 phrases काफी हैं।",
     phrases: [
       {
-        marathi: "माझं नाव ___ आहे.",
-        transliteration: "Maazha naav ___ aahe.",
-        hindi: "मेरा नाम ___ है।"
+        marathi: "माझं नाव राहुल आहे.",
+        transliteration: "Maazha naav Rahul aahe.",
+        hindi: "मेरा नाम राहुल है।"
       },
       {
         marathi: "मी नवीन आहे.",
@@ -37,7 +37,7 @@ export const lessons = [
       correct: 0
     },
     recall: {
-      sentence: "मला थोडी ___ हवी आहे.",
+      sentence: "मला थोडी मदत हवी आहे.",
       tiles: ["मदत", "वेळ", "पाणी"],
       correct: "मदत"
     }
@@ -49,9 +49,9 @@ export const lessons = [
     context: "तुम एक नई जगह पर हो और रास्ता भूल गए हो। एक local आता है। ये phrases काम आएंगे।",
     phrases: [
       {
-        marathi: "___ कुठे आहे?",
-        transliteration: "___ kuthe aahe?",
-        hindi: "___ कहाँ है?"
+        marathi: "स्टेशन कुठे आहे?",
+        transliteration: "Station kuthe aahe?",
+        hindi: "स्टेशन कहाँ है?"
       },
       {
         marathi: "इथून किती दूर आहे?",
@@ -59,9 +59,9 @@ export const lessons = [
         hindi: "यहाँ से कितना दूर है?"
       },
       {
-        marathi: "मला ___ ला जायचं आहे.",
-        transliteration: "Mala ___ la jaaycha aahe.",
-        hindi: "मुझे ___ जाना है।"
+        marathi: "मला पुण्याला जायचं आहे.",
+        transliteration: "Mala Punyala jaaycha aahe.",
+        hindi: "मुझे पुणे जाना है।"
       },
       {
         marathi: "डावीकडे की उजवीकडे?",
@@ -80,7 +80,7 @@ export const lessons = [
       correct: 0
     },
     recall: {
-      sentence: "इथून किती ___ आहे?",
+      sentence: "इथून किती दूर आहे?",
       tiles: ["दूर", "जवळ", "मोठं"],
       correct: "दूर"
     }
@@ -92,9 +92,9 @@ export const lessons = [
     context: "एक local dhaba है। menu Marathi में है। vendor Hindi नहीं बोलता। ये phrases तुम्हें खाना दिला देंगे।",
     phrases: [
       {
-        marathi: "मला ___ द्या.",
-        transliteration: "Mala ___ dyaa.",
-        hindi: "मुझे ___ दीजिए।"
+        marathi: "मला चहा द्या.",
+        transliteration: "Mala chaha dyaa.",
+        hindi: "मुझे चाय दीजिए।"
       },
       {
         marathi: "किती पैसे झाले?",
@@ -123,7 +123,7 @@ export const lessons = [
       correct: 0
     },
     recall: {
-      sentence: "पाणी ___ का?",
+      sentence: "पाणी मिळेल का?",
       tiles: ["मिळेल", "आहे", "नको"],
       correct: "मिळेल"
     }
@@ -166,7 +166,7 @@ export const lessons = [
       correct: 0
     },
     recall: {
-      sentence: "हे मला ___ नाही.",
+      sentence: "हे मला समझलं नाही.",
       tiles: ["समझलं", "आवडलं", "मिळालं"],
       correct: "समझलं"
     }

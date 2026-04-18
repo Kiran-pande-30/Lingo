@@ -277,7 +277,17 @@ const LessonPage = ({ unit, progress, onComplete, onBack }) => {
         {unit.recall && (
           <div className="bg-surface border-[0.5px] border-border-strong rounded-card p-5 shadow-card">
             <span className="text-[11px] uppercase tracking-wider font-bold text-secondary mb-3 block">वाक्य पूरा करो</span>
-            <p className="text-lg font-bold font-devanagari mb-6">{unit.recall.sentence}</p>
+            <p className="text-lg font-bold font-devanagari mb-6 flex flex-wrap items-center">
+              {unit.recall.sentence.split(unit.recall.correct)[0]}
+              <span className={`inline-block min-w-[60px] px-2 py-0.5 mx-1 border-b-2 text-center transition-all ${
+                recallAnswer 
+                  ? (recallAnswer === unit.recall.correct ? 'border-tertiary text-tertiary' : 'border-error-wrong text-error-wrong')
+                  : 'border-border-strong text-transparent'
+              }`}>
+                {recallAnswer || unit.recall.correct}
+              </span>
+              {unit.recall.sentence.split(unit.recall.correct)[1]}
+            </p>
             <div className="flex flex-wrap gap-3">
               {unit.recall.tiles.map((tile, idx) => (
                 <button
